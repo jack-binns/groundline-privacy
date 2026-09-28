@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Groundline — Privacy Policy</title>
+<style>
+  :root { color-scheme: light; }
+  body {
+    margin: 0; padding: 40px 20px 80px;
+    background: #F2EFE6; color: #18171A;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.55;
+  }
+  main { max-width: 680px; margin: 0 auto; }
+  h1 { font-size: 26px; margin-bottom: 4px; }
+  h2 { font-size: 18px; margin-top: 40px; border-bottom: 1px solid #D8D2C4; padding-bottom: 6px; }
+  .updated { color: #79756C; font-size: 14px; margin-bottom: 32px; }
+  table { border-collapse: collapse; width: 100%; margin: 16px 0; font-size: 15px; }
+  th, td { text-align: left; padding: 8px 12px; border: 1px solid #D8D2C4; vertical-align: top; }
+  th { background: #EAE6DA; }
+  a { color: #2E4F8F; }
+  ul { padding-left: 22px; }
+</style>
+</head>
+<body>
+<main>
+<h1>Groundline — Privacy Policy</h1>
+<p class="updated">Last updated: 12 August 2026</p>
+
+<p>Groundline is a radio coverage mapping tool for volunteer firefighters. Members record
+how well their radio works at a given place; the app builds a coverage map from those
+readings.</p>
+
+<h2>What Groundline collects</h2>
+<p>When you tap a rating in the app, one reading is created and sent to the brigade's server:</p>
+<table>
+<tr><th>Data</th><th>Detail</th></tr>
+<tr><td>GPS coordinates</td><td>Latitude and longitude at the moment you rate</td></tr>
+<tr><td>GPS accuracy</td><td>The device's own estimate, in metres. Readings worse than 50&nbsp;m are rejected</td></tr>
+<tr><td>Radio quality rating</td><td>Your 1–5 rating</td></tr>
+<tr><td>Timestamp</td><td>When the reading was taken</td></tr>
+<tr><td>Device identifier</td><td>A random ID generated on first launch. Not your name, phone number, or account</td></tr>
+</table>
+<p>Nothing else leaves the device.</p>
+
+<h2>What Groundline does not collect</h2>
+<ul>
+<li>Your name, phone number, email address, or any brigade membership record</li>
+<li>Your contacts, photos, files, or messages</li>
+<li>Your location in the background. Groundline only reads location while the app is open
+and only when you take a reading. It cannot track your movements while closed</li>
+<li>Advertising identifiers. There is no advertising and no analytics SDK in the app</li>
+<li>Anything at all if you never submit a reading</li>
+</ul>
+
+<h2>Why it is collected</h2>
+<p>To map radio coverage across the brigade response area, so members know where their radio
+will and will not work before they need it. There is no other purpose. The data is not
+sold, rented, or used for advertising.</p>
+
+<h2>Who can see it</h2>
+<ul>
+<li><strong>Brigade administrators</strong> can see all readings, including the device
+identifier, through an access-controlled operations portal. The identifier is there so an
+administrator can spot a faulty device sending bad data — it does not tell them who you are</li>
+<li><strong>The coverage map in the app</strong> shows readings without any device identifier
+attached</li>
+<li><strong>No one else.</strong> Readings are not shared with any third party, government
+body, or commercial partner</li>
+</ul>
+
+<h2>Offline readings</h2>
+<p>If you have no signal, readings are stored on your phone and sent when connectivity
+returns. While stored, they sit in the app's private storage, which other apps cannot read.
+Groundline excludes this storage from Google and Apple device backups, so unsent readings
+are not copied to your personal cloud account or transferred to a new phone.</p>
+
+<h2>Where the data is stored</h2>
+<p>On Amazon Web Services in the Sydney region (ap-southeast-2). It is encrypted in transit
+using HTTPS/TLS between your phone and the server.</p>
+
+<h2>How long it is kept</h2>
+<p>Readings are kept indefinitely, as brigade operational records. Coverage does not expire —
+a reading taken two years ago still describes that hilltop — so there is no automatic
+deletion.</p>
+<p>If you want your readings removed, contact the brigade at the address below with the
+approximate dates and area your readings cover. An administrator will locate and delete
+them. Because readings carry no name — only a random device identifier — this is the only
+way to match readings to the person who took them.</p>
+
+<h2>Other services the app contacts</h2>
+<p>Two services are contacted directly by your phone. No readings are sent to either.</p>
+<ul>
+<li><strong>CARTO</strong> supplies the background map tiles. It receives your IP address and
+which map tiles you are viewing</li>
+<li><strong>OpenStreetMap Nominatim</strong> handles the address search box. It receives your
+IP address and the text you type into the search field, and only when you use the search</li>
+</ul>
+
+<h2>Permissions the app requests</h2>
+<p><strong>Location (while in use).</strong> Required. Without it there is nothing to record a
+reading against. You can revoke it in your device settings at any time; the app will then be
+unable to log readings.</p>
+
+<h2>Children</h2>
+<p>Groundline is intended for members of a volunteer fire brigade and is not directed at
+children.</p>
+
+<h2>Changes to this policy</h2>
+<p>Changes will be published at this URL with an updated date at the top.</p>
+
+<h2>Contact</h2>
+<p><a href="mailto:groundlinedev@gmail.com">groundlinedev@gmail.com</a></p>
+<p>Use this address for questions about this policy, to request deletion of your readings, or
+to ask what data is held about a device.</p>
+</main>
+</body>
+</html>
